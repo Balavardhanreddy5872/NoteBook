@@ -1,9 +1,13 @@
 const connection= require('./db')
 connection;
+var cors = require('cors')
 
 const express = require('express')
 const app = express()
-const port = 5000
+const port = 5000 
+
+
+app.use(cors())
 app.use(express.json())
 
 // Avaliable routes
