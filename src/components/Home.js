@@ -1,12 +1,12 @@
 import Addnote from './Addnote';
 import Notes from './Notes';
 
-export const Home = () => {
-
+export const Home = (props) => {
+  
     return (
         <div>
             <Addnote/>
-            <Notes/>
+            <Notes />
         </div>
     )
 }
