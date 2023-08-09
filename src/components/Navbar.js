@@ -14,6 +14,7 @@ const Navbar = () => {
     }, [location]);
     return (
         <>
+        {/* Navbar  */}
             <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style={{ position: 'sticky' }}>
                 <div className="container-fluid">
                     <img style={{ width: '20px', margin: '5px' }} src='https://downloadr2.apkmirror.com/wp-content/uploads/2023/07/12/64b2507034eb4_com.eterno-384x384.png' alt='DailyHunt' />
